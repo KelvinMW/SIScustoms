@@ -1,0 +1,1 @@
+ALTER TABLE `gibbonStudentEnrolment` ADD `timestampUpdated` TIMESTAMP on update CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `rollOrder`;
